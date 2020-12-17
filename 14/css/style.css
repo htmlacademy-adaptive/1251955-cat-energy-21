@@ -1128,7 +1128,10 @@ a {
       padding-bottom: 86px; } }
 
 .catalog__title {
-  margin-bottom: 80px; }
+  margin-bottom: 40px; }
+  @media (min-width: 768px) {
+    .catalog__title {
+      margin-bottom: 80px; } }
   @media (min-width: 1280px) {
     .catalog__title {
       margin-bottom: 84px; } }
@@ -1258,7 +1261,8 @@ a {
   text-align: right; }
 
 .card__button {
-  grid-area: c-button; }
+  grid-area: c-button;
+  margin-top: 11px; }
 
 @media (min-width: 768px) {
   .more-card {
